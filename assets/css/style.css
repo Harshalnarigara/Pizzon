@@ -1,5 +1,5 @@
 .main {
-    height: 729px;
+    height: 740px;
     background-color: #121619;
     background-image: linear-gradient(rgba(5, 5, 5, 0.562), rgba(0, 0, 0, 0.584)), url(../img/chef-bg-1.png);
     background-size: cover;
@@ -66,4 +66,92 @@
     border-radius: 30px;
     background: #FD9D3E;
     color: white;
+}
+
+#carouselExampleInterval{
+  height: 650px;
+  /* border: 1px solid white; */
+  /* margin-top: 30px; */
+}
+.slider h1{
+  font-size: 150px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.slider p{
+  color: white;
+  text-align: center;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 24px;
+  color: #FD9D3E;
+  margin-bottom: 0;
+}
+.imgs img{
+  position: relative;
+  border: 1px solid red;
+}
+.bb-2,.bb-3,.bb-4,.bb-5{
+  position: absolute;
+}
+.bb-2{
+  top: 550px;
+  left: 75%;
+}
+.bb-3{
+  top: 220px;
+  left: 65%;
+}
+.bb-4{
+  top: 290px;
+  left: 41%;
+}
+.bb-5{
+  top: 450px;
+  left: 210px;
+}
+
+
+@media (min-width:0px) and (max-width:576px) {
+  .main{
+    height: 440px;
+  }
+  #carouselExampleInterval{
+    height: auto;
+    border: 1px solid red;
+  }
+  .slider h1{
+    font-size: 70px;
+  }
+  .bb-2{
+    top: 300px;
+    left: 430px;
+    height: 80px;
+    width: 80px;
+  }
+  .bb-3{
+    top: 170px;
+    left: 350px;
+    height: 80px;
+    width: 80px;
+  }
+  .bb-4{
+    top: 140px;
+    left: 180px;
+    height: 80px;
+    width: 80px;
+  }
+  .bb-5{
+    top: 250px;
+    left: 30px;
+    height: 80px;
+    width: 80px;
+  }
 }
